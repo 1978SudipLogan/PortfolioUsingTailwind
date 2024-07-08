@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gradient-to-r from-sky-600 to-blue-500">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioUsingTailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+    <div
+        class="z-50 top-0 grid  lg:grid-cols-2 sm:grid-cols-1 box-decoration-clone bg-gradient-to-r from-sky-600 to-blue-500 sticky">
+        <div class="mx-auto backdrop-blur-sm">
+            <img src="images/logo.jpg" alt="" class="h-20 rounded mx-5 p-5 hover:scale-150">
+        </div>
+        <div class=" flex justify-center items-center sm:grid-cols-1 mx-auto ">
+            <ul class="flex space-x-4 text-2xl flex-wrap mx-2 my-2 gap-4  ">
+                <li
+                    class="p-1 hover:scale-125 hover:text-white  box-decoration-clone bg-red-900 shadow-inner shadow-cyan-500/50  text-black rounded ">
+                    <a href="#" class="">Home</a>
+                </li>
+                <li
+                    class="p-1 hover:scale-125 hover:text-white   box-decoration-clone bg-red-900 shadow-inner shadow-cyan-500/50 text-black rounded">
+                    <a href="#aboutme" class="cursor-pointer">About</a>
+                </li>
+                <li
+                    class=" p-1 hover:scale-125 hover:text-white  box-decoration-clone bg-red-900 shadow-inner shadow-cyan-500/50 text-black rounded">
+                    <a href="#project" class="">Projects</a>
+                </li>
+                <li
+                    class="p-1 hover:scale-125 hover:text-white  box-decoration-clone bg-red-900 shadow-inner shadow-cyan-500/50 text-black rounded">
+                    <a href="#contact" class="">Contacts</a>
+                </li>
+                <li
+                    class="p-2 hover:bg-red-900 hover:scale-125 hover:text-white p-1 box-decoration-clone bg-red-900 shadow-inner shadow-cyan-500/50 text-black rounded">
+                    <a href="#" class="">Mode</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div
+        class=" grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1  box-decoration-clone bg-gradient-to-r from-sky-600 to-blue-500 ">
+        <div class="text-center mx-auto my-auto font-bold text-2xl">
+            <h4 class="text-md text-red-900 p-2">Welcome to My World</h4>
+            <h1 class="text-4xl p-2">Hello, I am <span class="text-white font-black">Sudip Das</span></h1>
+            <h1 class="text-4xl p-2">A Java FullStack Developer</h1>
+            <div class="grid grid-cols-6 mt-2">
+                <a href="https://github.com/" target="_blank" class="col-start-3"><img src="images/github.png"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" class="col-start-4"><img
+                        src="images/linkedin.png" alt=""></a>
+            </div>
+        </div>
+        <div class=" mx-auto my-10 size-4/5 overflow-hidden">
+            <img src="images/myImage.jpg" alt="Sudip Das"
+                class="h-5/6 mx-10 border-4  outline-dashed rounded-3xl border-stone-900 hover:scale-90">
+        </div>
+    </div>
+
+
+    <div id="aboutme"
+        class="scroll-target z-0 grid relative bottom-3 lg:grid-cols-1 bg-gradient-to-r from-sky-600 to-blue-500 sm:grid-cols-1">
+        <div class="relative  text-center p-2">
+            <h3 class="text-4xl font-bold">About Me</h3>
+            <p class="text-xl mt-2">Hello! I'm Sudip Das, a Java Fullstack Developer with two years of
+                professional
+                experience in
+                creating dynamic and robust web applications. My expertise lies in leveraging the power of Java for
+                backend development and integrating it seamlessly with front-end technologies to build comprehensive and
+                user-friendly applications.</p>
+        </div>
+    </div>
+
+    <div class="grid bg-gradient-to-r from-sky-600 to-blue-500 relative top-10" id="project">
+        <h1 class="text-4xl font-bold text-center relative top-10">Projects</h1>
+
+        <div class="grid lg:grid-cols-5 md:grid-cols-2 relative top-12 p-2 overflow-hidden">
+
+            <div class="bg-white m-2 rounded-3xl shadow-2xl overflow-hidden">
+                <img src="images/Screenshot (55).png" alt="" class="hover:scale-105 ">
+                <h3 class="text-center font-bold hover:scale-125 bg-purple-900 shadow-inner shadow-cyan-500/50">
+                    MyPortfolio</h3>
+                <p class="text-center p-2 hover:scale-105">I created this portfolio by using HTML, CSS, JavaScript and
+                    Bootstrap. I used HTML for Structuring
+                    the website, CSS for styling, Bootstrap for Responsiveness
+                    and JavaScript for Functionality</p>
+                <div class="text-center">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50  p-1 m-2 rounded font-bold "><a href=""
+                            class="text-white">Go to
+                            Website</a></button>
+                </div>
+            </div>
+            <div class="bg-white m-2 rounded-3xl overflow-hidden">
+                <img src="images/Screenshot (56).png" alt="" class="hover:scale-105 ">
+                <h3 class="text-center font-bold hover:scale-125 bg-purple-900 shadow-inner shadow-cyan-500/50">
+                    Calculator</h3>
+                <p class="text-center p-2 hover:scale-105">I created this website by using HTML, CSS, JavaScript.
+                    I used HTML for
+                    Structuring
+                    the website, CSS for styling,
+                    and JavaScript for Functionality.You can use this calculator for daily arithmetic operation</p>
+                </p>
+                <div class="text-center ">
+                    <button class=" bg-green-900 shadow-inner shadow-cyan-500/50  p-1 m-2 rounded font-bold "><a href=""
+                            class="text-white">Go to
+                            Website</a></button>
+                </div>
+            </div>
+            <div class="bg-white m-2 rounded-3xl overflow-hidden">
+                <img src="images/Screenshot (57).png" alt="" class="hover:scale-105 ">
+                <h3 class="text-center font-bold hover:scale-125 bg-purple-900 shadow-inner shadow-cyan-500/50">
+                    LosAngeles</h3>
+                <p class="text-center p-2 hover:scale-105">I created this webpage by using HTML, CSS. I used HTML for
+                    Structuring
+                    the website and CSS for styling.You can create this project for clearing your CSS Position, Z-index,
+                    Opacity,margin and padding concepts.
+                </p>
+                </p>
+                <div class="text-center ">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50  p-1 m-2 rounded font-bold "><a href=""
+                            class="text-white">Go to
+                            Website</a></button>
+                </div>
+            </div>
+            <div class="bg-white m-2 rounded-3xl overflow-hidden">
+                <img src="images/Screenshot (58).png" alt="" class="hover:scale-105 ">
+                <h3 class="text-center font-bold hover:scale-125 bg-purple-900 shadow-inner shadow-cyan-500/50">Parallax
+                    World</h3>
+                <p class="text-center p-2 hover:scale-105">I created this webpage by using HTML, CSS. I used HTML for
+                    Structuring
+                    the website, CSS for styling. In this project,i focussed on the Position, background-attachment and
+                    padding concepts of CSS</p>
+                </p>
+                <div class="text-center ">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50  p-1 m-2 rounded font-bold "><a href=""
+                            class="text-white">Go to
+                            Website</a></button>
+                </div>
+            </div>
+            <div class="bg-white m-2 rounded-3xl overflow-hidden">
+                <img src="images/Screenshot (59).png" alt="" class="hover:scale-105 ">
+                <h3 class="text-center font-bold hover:scale-125 bg-purple-900 shadow-inner shadow-cyan-500/50">Dhoni
+                </h3>
+                <p class="text-center p-2 hover:scale-105">I created this webpage by using HTML, CSS, JavaScript and
+                    Bootstrap. I used HTML for Structuring
+                    the website and CSS for styling. this is just a basic project to clear the basic concepts of CSS
+                    like border,border-radius.</p>
+                </p>
+                <div class="text-center ">
+                    <button class=" bg-green-900 shadow-inner shadow-cyan-500/50  p-1 m-2 rounded font-bold  "><a
+                            href="" class="text-white">Go to
+                            Website</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="relative top-10 h-3/5  m-24" id="contact">
+        <div>
+            <h1 class="text-center font-bold text-4xl mt-2">Contact Me</h1>
+        </div>
+        <form action="https://formspree.io/f/mkgwnkzv" method="POST">
+            <div class="grid grid-rows-6 relative top-10 flex flex-col h-screen">
+
+                <div class="text-center  ">
+                    <label for="name" class="text-2xl flex justify-center">Name</label>
+                    <input type="text" name="name" id="name"
+                        class="w-5/6 lg:w-3/6 border rounded p-2 mx-auto  required">
+                </div>
+                <div class="text-center">
+                    <label for="num" class="text-2xl flex justify-center">Phone</label>
+                    <input type="number" name="number" id="num"
+                        class="w-5/6 lg:w-3/6 border rounded p-2 mx-auto required">
+                </div>
+                <div class="text-center ">
+                    <label for="mail" class="text-2xl flex justify-center">Email</label>
+                    <input type="email" name="email" id="mail"
+                        class="w-5/6 lg:w-3/6 border rounded p-2 mx-auto required">
+                </div>
+                <div class="text-center ">
+                    <label for="sub" class="text-2xl flex justify-center">Subject</label>
+                    <input type="text" name="sub" id="sub" class="w-5/6 lg:w-3/6 border rounded p-2 mx-auto  required">
+                </div>
+                <div class="text-center">
+                    <label for="message" class="text-2xl flex justify-center">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                        class="w-5/6 border rounded p-2 mx-auto md:w-5/6 lg:w-3/6 sm:w-3/6 required"></textarea>
+                </div>
+                <div class="text-center text-black-500">
+                    <button class="bg-green-900 shadow-inner  text-2xl p-1 rounded relative top-16 ">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="relative top-20">
+        <footer class="">
+            <p class="text-2xl text-center h-5/5">&copy; 2024 Sudip Das. All rights reserved.</p>
+        </footer>
+    </section>
+</body>
+
+</html>
