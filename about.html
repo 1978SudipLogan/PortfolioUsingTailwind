@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-sky-600 to-blue-500">
+    <div id="aboutme"
+        class="h-full p-6 scroll-target z-0 grid relative bottom-3 lg:grid-cols-1 bg-gradient-to-r from-sky-600 to-blue-500 sm:grid-cols-1">
+        <div class="relative  text-center p-2">
+            <!-- <h3 class="text-4xl font-bold about">About Me</h3> -->
+            <p class="text-2xl mt-2 about">Hello! I'm Sudip Das, a Java Fullstack Developer with two years of
+                professional
+                experience in
+                creating dynamic and robust web applications. My expertise lies in leveraging the power of Java for
+                backend development and integrating it seamlessly with front-end technologies to build comprehensive and
+                user-friendly applications.</p>
+            <button onclick="window.history.back()" id="aboutToHome"
+                class="border rounded-2xl p-1 border-pink-900 bg-gradient-to-r from-pink-600 to-red-500 mt-20">Go
+                To Home</button>
+        </div>
+
+    </div>
+
+
+    <section class="relative top-96">
+        <footer class="">
+            <p class="text-2xl text-center h-5/5">&copy; 2024 Sudip Das. All rights reserved.</p>
+        </footer>
+    </section>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

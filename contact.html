@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-sky-600 to-blue-500">
+    <div class="common relative min-h-screen flex items-center justify-center" id="contact">
+        <div class="w-full max-w-lg">
+            <h1 class="text-center relative font-bold text-4xl mt-2">Contact Me</h1>
+            <form action="https://formspree.io/f/mkgwnkzv" method="POST" class="mt-8 space-y-6">
+                <div class="space-y-4">
+                    <div class="text-center">
+                        <label for="name" class="text-2xl block">Name</label>
+                        <input type="text" name="name" id="name" class="w-full border rounded p-2 mx-auto required">
+                    </div>
+                    <div class="text-center">
+                        <label for="num" class="text-2xl block">Phone</label>
+                        <input type="number" name="number" id="num" class="w-full border rounded p-2 mx-auto required">
+                    </div>
+                    <div class="text-center">
+                        <label for="mail" class="text-2xl block">Email</label>
+                        <input type="email" name="email" id="mail" class="w-full border rounded p-2 mx-auto required">
+                    </div>
+                    <div class="text-center">
+                        <label for="sub" class="text-2xl block">Subject</label>
+                        <input type="text" name="sub" id="sub" class="w-full border rounded p-2 mx-auto required">
+                    </div>
+                    <div class="text-center">
+                        <label for="message" class="text-2xl block">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full border rounded p-2 mx-auto required"></textarea>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-green-900 shadow-inner text-2xl p-1 rounded mt-8">Submit</button>
+                </div>
+                <div class="text-center">
+                    <button onclick="window.history.back()" type="button" id="contactToHome"
+                        class="border rounded-2xl p-2 border-pink-900 bg-gradient-to-r from-pink-600 to-red-500 mt-4">
+                        Go To Home
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="relative top-24">
+        <footer class="">
+            <p class="text-2xl text-center h-5/5">&copy; 2024 Sudip Das. All rights reserved.</p>
+        </footer>
+    </section>
+    <script src="script.js"> </script>
+</body>
+
+</html>

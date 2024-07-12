@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hover-scale {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-sky-600 to-blue-500">
+    <div id="myProject" class="common h-full bg-gradient-to-r from-sky-600 to-blue-500 p-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+
+            <div class="bg-white m-2 rounded-3xl shadow-2xl overflow-hidden">
+                <img src="images/Screenshot (55).png" alt="" class="hover-scale w-full">
+                <h3
+                    class="text-center font-bold hover:scale-125 bg-yellow-900 text-white shadow-inner shadow-cyan-500/50 p-2">
+                    MyPortfolio
+                </h3>
+                <p class="text-center p-2 hover:scale-105 transition-transform duration-300">I created this portfolio
+                    using HTML, CSS, JavaScript, and Bootstrap. HTML for structuring, CSS for styling, Bootstrap for
+                    responsiveness, and JavaScript for functionality.</p>
+                <div class="text-center">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50 p-1 m-2 rounded font-bold">
+                        <a href="https://github.com/1978SudipLogan/portfolioUsingBoot.git" class="text-white">Go to
+                            Website</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white m-2 rounded-3xl shadow-2xl overflow-hidden">
+                <img src="images/Screenshot (56).png" alt="" class="hover-scale w-full">
+                <h3
+                    class="text-center font-bold hover:scale-125 bg-yellow-900 text-white shadow-inner shadow-cyan-500/50 p-2">
+                    Calculator
+                </h3>
+                <p class="text-center p-2 hover:scale-105 transition-transform duration-300">I created this website
+                    using HTML, CSS, and JavaScript. HTML for structuring, CSS for styling, and JavaScript for
+                    functionality. You can use this calculator for daily arithmetic operations.</p>
+                <div class="text-center">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50 p-1 m-2 rounded font-bold">
+                        <a href="https://github.com/1978SudipLogan/Calculator.git" class="text-white">Go to Website</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white m-2 rounded-3xl shadow-2xl overflow-hidden">
+                <img src="images/Screenshot (57).png" alt="" class="hover-scale w-full">
+                <h3
+                    class="text-center font-bold hover:scale-125 bg-yellow-900 text-white shadow-inner shadow-cyan-500/50 p-2">
+                    LosAngeles
+                </h3>
+                <p class="text-center p-2 hover:scale-105 transition-transform duration-300">I created this webpage
+                    using HTML and CSS. HTML for structuring and CSS for styling. This project focuses on CSS concepts
+                    like position, z-index, opacity, margin, and padding.</p>
+                <div class="text-center">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50 p-1 m-2 rounded font-bold">
+                        <a href="https://github.com/1978SudipLogan/HTMLCSS.git" class="text-white">Go to Website</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white m-2 rounded-3xl shadow-2xl overflow-hidden">
+                <img src="images/Screenshot (58).png" alt="" class="hover-scale w-full">
+                <h3
+                    class="text-center font-bold hover:scale-125 bg-yellow-900 text-white shadow-inner shadow-cyan-500/50 p-2">
+                    Parallax World
+                </h3>
+                <p class="text-center p-2 hover:scale-105 transition-transform duration-300">I created this webpage
+                    using HTML and CSS. HTML for structuring, CSS for styling. This project focuses on CSS concepts like
+                    position, background-attachment, and padding.</p>
+                <div class="text-center">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50 p-1 m-2 rounded font-bold">
+                        <a href="https://github.com/1978SudipLogan/Parallax_World.git" class="text-white">Go to
+                            Website</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white m-2 rounded-3xl shadow-2xl overflow-hidden">
+                <img src="images/Screenshot (59).png" alt="" class="hover-scale w-full">
+                <h3
+                    class="text-center font-bold hover:scale-125 bg-yellow-900 text-white shadow-inner shadow-cyan-500/50 p-2">
+                    Dhoni
+                </h3>
+                <p class="text-center p-2 hover:scale-105 transition-transform duration-300">I created this webpage
+                    using HTML, CSS, JavaScript, and Bootstrap. HTML for structuring and CSS for styling. This is a
+                    basic project to clear concepts like border and border-radius in CSS.</p>
+                <div class="text-center">
+                    <button class="bg-green-900 shadow-inner shadow-cyan-500/50 p-1 m-2 rounded font-bold">
+                        <a href="https://github.com/1978SudipLogan/Dhoni_intro.git" class="text-white">Go to Website</a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <button onclick="window.history.back()" id="projectToHome"
+            class=" relative inset-x-2/4 border rounded-2xl p-1 border-pink-900 bg-gradient-to-r from-pink-600 to-red-500 mt-20">Go
+            To Home</button>
+    </div>
+    <section class="relative top-24">
+        <footer class="">
+            <p class="text-2xl text-center h-5/5">&copy; 2024 Sudip Das. All rights reserved.</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
