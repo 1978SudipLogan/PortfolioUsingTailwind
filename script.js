@@ -3,7 +3,11 @@ function myFunc() {
     let head = document.querySelector("#header");
     if (window.innerWidth <= 540) {
         // head.style.height = "50px";
-        head.style.border = '2px solid black';
+        // head.style.border = '2px solid black';
+        head.style.height = '150px';
+        // heading.style.position = 'relative';
+        // heading.style.top = '-20px'
+
     }
 
 
